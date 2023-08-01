@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href = "myfile.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Structural HTML</title>
+    </head>
+    <body>
+        <header>
+        <h1>My Blog Posts</h1>
+        </header>
+        <section>
+        <header>
+            <h2>Latest Post</h2>
+        </section>
+        <article>
+            <header>
+                <h3>My HTML5 Blog</h3>
+                <p>Date: 3rd October</p>
+            </header>
+            <article >
+                <h4>My HTML5 Musings</h4>
+                <p id="intro">This is my introduction to HTML5</p>
+                <p id="postBody">This is the body of my post</p>
+                <p id="conclusion">This is the conclusion of my post</p>
+            </article>
+            <article >
+                <h4>My HTML5 Musings</h4>
+                <p id="intro">This is my introduction to HTML5</p>
+                <p id="postBody">This is the body of my post</p>
+                <p id="conclusion">This is the conclusion of my post</p>
+            </article>
+            <footer>
+                <address>
+                    <a href="#">Posted in HTML5 stuff</a>
+                </address>
+            </footer>
+        </article>
+        </div>
+        <style>
+        h1 {
+            color: navy;
+            margin-left:20px;    
+        }
+
+        h2 {color: rgb(148, 27, 27);
+        margin-left: 40px;
+        }
+        </style>
+        <footer>
+        <p>My Social Media Links go here!</p>
+        </footer>
+    </body>
+</html>
