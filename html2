@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <form method = "post" action = "index.html">
+            <h1>Sign Up Form</h1>
+            <legend>Your Basic Info:</legend>
+            Email:<input type="Email" name="Email"/><br>
+            Name:<input type ="Name" name="Name"/><br>
+            Password:<input type="password" name="password"/><br>
+            Gender:<input type="radio" name ="radiogender" value = 
+"male"/>male
+            <input type="radio" name="radiogender" 
+value="female"/>female<br>
+            <button type="button" >submit</button>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Second Name</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>902348</td>
+                    <td>John</td>
+                    <td>Cohen</td>
+                    <td>Jc@gmail.com</td>
+
+                </tr>
+                <tr>
+                    <td>9384759</td>
+                    <td>Beau</td>
+                    <td>Taylor</td>
+                    <td>Bt@btinternet.com</td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
